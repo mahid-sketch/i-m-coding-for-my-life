@@ -246,12 +246,13 @@ nav{
     border-radius: 48px;
 }
 /* form part start */
-.form-section{
+/* .form-section{
     max-width: 1140px;
 }
 .form-main{
     display: flex;
     justify-content: space-between;
+    gap: 115px;
 }
 .form-titel{
     color: #252432;
@@ -260,24 +261,13 @@ nav{
     font-family: "Raleway", sans-serif;
 }
 .form-text{
-    width: 530px;
     padding: 200px 0;
 }
 .form-info{
-    padding: 70px 0;
-    margin-left: 115px;
+    align-items: center;
     
 }
-label{
-    display: block;
-    
-}
-input{
-    padding: 20px 0;
-    width: 100%;
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.24);
-}
+
 .text-sty{
     font-size: 18px;
     font-weight: 600;
@@ -302,11 +292,9 @@ input{
     padding-left: 32px;
     width: 100%;
 }
-.touch-design{
-    width: 100%;
-}
+
 /* footer part start */
-.foot-sec{
+/* .foot-sec{
     padding: 105px 450px;
     text-align: center;
     background-color: #ffffff;
@@ -324,11 +312,11 @@ input{
     font-family: "Inter", sans-serif;
     color: rgba(137, 135, 161, 1);
     margin: 0  250px;
-}
+} */
 /* menu{
     padding: 20px 65px 0 65px;
 } */
- .foot-menu{
+ /* .foot-menu{
     width: 530px;
     margin: 0px auto;
     
@@ -351,4 +339,52 @@ input{
     font-family: "Inter", sans-serif;
     color: rgba(137, 135, 161, 1);
     
+} */ 
+
+ .touch-design{
+    width: 100%;
+}
+ .touch-sec{
+    margin-top: 100px;
+ }
+ .touch-main{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ .touch-text{
+    color: #252432;
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    padding: 150px 0;
+ }
+ .touch-form{
+    display: block;
+    padding: 70px 0;
+ }
+ .form-text{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: #000000;
+ }
+ .form-box{
+    padding: 20px 150px 20px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(37, 36, 50, 0.278);
+    border-radius: 15px;
+ }
+.text-area{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(37, 36, 50, 0.278);
+    border-radius: 15px;
+    padding: 20px 190px 40px 30px;
+
 }
