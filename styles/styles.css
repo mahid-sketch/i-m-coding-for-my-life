@@ -194,7 +194,6 @@ nav{
     color: #252432;
     font-size: 16px;
     font-weight: normal;
-    width: 300px;
     
 }
 .card-little-main{
@@ -267,11 +266,11 @@ nav{
 .form-info{
     padding: 70px 0;
     margin-left: 115px;
-    width: 500px;
+    
 }
 label{
     display: block;
-    width: 500px;
+    
 }
 input{
     padding: 20px 0;
