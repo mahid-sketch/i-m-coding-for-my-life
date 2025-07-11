@@ -294,52 +294,8 @@ nav{
 }
 
 /* footer part start */
-/* .foot-sec{
-    padding: 105px 450px;
-    text-align: center;
-    background-color: #ffffff;
-}
 
-.foot-main h1{
-    font-size: 100px;
-    font-weight: 900;
-    font-family: "Inter", sans-serif;
-    color: #4E47FF;
-}
-.foot-main p{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Inter", sans-serif;
-    color: rgba(137, 135, 161, 1);
-    margin: 0  250px;
-} */
-/* menu{
-    padding: 20px 65px 0 65px;
-} */
- /* .foot-menu{
-    width: 530px;
-    margin: 0px auto;
-    
 
- }
-.foot-menu ul{
-    display: flex;
-    justify-content: space-between;
-}
-.foot-menu ul li{
-    list-style: none;
-    text-align: center;
-    margin-left: 50px;
-    margin-top: 20px;
-}
-.foot-menu ul li a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: "Inter", sans-serif;
-    color: rgba(137, 135, 161, 1);
-    
-} */ 
 
  .touch-design{
     width: 100%;
@@ -387,4 +343,51 @@ nav{
     border-radius: 15px;
     padding: 20px 190px 40px 30px;
 
+}
+/* footer start */
+.foot-sec{
+    padding: 105px 440px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.foot-logo{
+    margin: 0 auto;
+}
+.foot-logo h1{
+    font-size: 100px;
+    font-weight: 900;
+    font-family: "Inter", sans-serif;
+    color: #4E47FF;
+}
+.foot-logo h1:hover{
+    color: blueviolet;
+}
+.foot-logo p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(137, 135, 161, 1);
+    padding: 10px 250px;
+    
+} 
+.menu{
+    padding: 0px 320px;
+    margin-top: 20px;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    color: rgba(137, 135, 161, 1);
+}
+.menu ul li a:hover{
+    color: #4E47FF;
 }
